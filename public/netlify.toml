@@ -1,0 +1,10 @@
+
+[build]
+  command = "npm run build"
+  publish = "public"
+
+[[redirects]]
+  from = "https://some-domain.netlify.com/*"
+  to = "https://www.mydomain.tk/:splat"
+  status = 301
+  force = true
