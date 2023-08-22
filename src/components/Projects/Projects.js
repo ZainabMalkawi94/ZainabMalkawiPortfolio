@@ -27,7 +27,6 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
               isBlog={false}
               title="Ticket Ease"
               description="Is a customer service ticketing system aimed to improve the handling of customer inquiries and support requests and 
@@ -40,7 +39,6 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
               isBlog={false}
               title="Reading Notes"
               description="This repository compiles reading notes, assigned resources, and videos for the course. Each module's page contains topic relevance, answered prompts, and potential questions, fostering understanding. It serves as an organized resource for comprehensive learning and engagement."
